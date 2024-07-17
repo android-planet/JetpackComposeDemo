@@ -78,6 +78,11 @@ dependencies {
     implementation(libs.coil.compose)
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
+
+    //Retrofit
+    implementation(libs.gson)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
     
 }
 kapt {
